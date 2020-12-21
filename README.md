@@ -3,6 +3,8 @@
 
 Automated testing with travis-CI
 
+1. create .travis.yml file:
+
 
         language: java
         jdk:
