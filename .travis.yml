@@ -7,5 +7,5 @@ script: ./mvnw clean install
 
 jobs:
   include:
-    - stage: install
-      script: ./mvnw clean install
+    - stage: Test
+      script: ./mvnw clean test
